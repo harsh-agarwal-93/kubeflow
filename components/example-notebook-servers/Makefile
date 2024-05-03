@@ -2,19 +2,20 @@
 IMAGE_FOLDERS ?= \
 	base \
 	codeserver \
-	codeserver-python \
-	jupyter \
-	jupyter-scipy \
-	jupyter-pytorch \
-	jupyter-pytorch-full \
-	jupyter-pytorch-cuda \
-	jupyter-pytorch-cuda-full \
-	jupyter-tensorflow \
-	jupyter-tensorflow-full \
-	jupyter-tensorflow-cuda \
-	jupyter-tensorflow-cuda-full \
-	rstudio \
-	rstudio-tidyverse \
+	codeserver-python-poetry \
+	#codeserver-python \
+	# jupyter \
+	# jupyter-scipy \
+	# jupyter-pytorch \
+	# jupyter-pytorch-full \
+	# jupyter-pytorch-cuda \
+	# jupyter-pytorch-cuda-full \
+	# jupyter-tensorflow \
+	# jupyter-tensorflow-full \
+	# jupyter-tensorflow-cuda \
+	# jupyter-tensorflow-cuda-full \
+	# rstudio \
+	# rstudio-tidyverse \
 
 # ------------------------------------------------------------------------------
 #  docker-build | build all images
